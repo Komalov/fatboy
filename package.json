@@ -1,0 +1,15 @@
+{
+  "name": "root",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  },
+  "scripts": {
+    "bootstrap": "yarn && lerna bootstrap;",
+    "package:fatboy-ui": "lerna run --scope fatboy-ui --stream dev",
+    "package:backend": "lerna run --scope backend --stream dev",
+    "package:cli": "lerna run --scope cli --stream dev",
+    "start": "run-p --print-label package:*",
+    "build": "lerna run --parallel build"
+  }
+}
