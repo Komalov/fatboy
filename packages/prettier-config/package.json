@@ -1,0 +1,32 @@
+{
+  "name": "@fatboy/prettier-config",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "Dmitry Komalov <dmitrykomalov@gmail.com>",
+  "homepage": "https://github.com/Komalov/fatboy#readme",
+  "license": "ISC",
+  "main": "lib/prettier-config.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Komalov/fatboy.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/Komalov/fatboy/issues"
+  },
+  "devDependencies": {
+    "prettier": "^2.5.1"
+  }
+}
