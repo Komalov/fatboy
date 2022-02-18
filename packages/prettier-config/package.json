@@ -1,5 +1,5 @@
 {
-  "name": "@fatboy/prettier-config",
+  "name": "@fatboy63/prettier-config",
   "version": "1.0.2",
   "description": "> TODO: description",
   "author": "Dmitry Komalov <dmitrykomalov@gmail.com>",
@@ -29,5 +29,5 @@
   "devDependencies": {
     "prettier": "^2.5.1"
   },
-  "gitHead": "46f66b406d525b5a79cd5fc40be9bad30997a375"
+  "gitHead": "ccce64c16112b16fd131e23183c9acafb9738443"
 }

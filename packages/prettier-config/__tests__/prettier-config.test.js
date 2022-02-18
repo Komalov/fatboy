@@ -2,6 +2,6 @@
 
 const prettierConfig = require('..');
 
-describe('@fatboy/prettier-config', () => {
+describe('@fatboy63/prettier-config', () => {
     it('needs tests');
 });
