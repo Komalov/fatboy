@@ -1,9 +1,10 @@
 {
   "name": "fatboy-api",
-  "version": "0.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "author": "komalov",
   "license": "MIT",
+  "private": true,
   "dependencies": {
     "koa": "^2.13.4"
   }
